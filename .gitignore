@@ -1,0 +1,23 @@
+# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset & Raw Files (Keep these local or on Google Drive, not GitHub)
+data/raw/
+data/processed/
+*.zip
+
+# Model Checkpoints & Large Weights (Keep out of git, use cloud storage or releases)
+models/checkpoints/*.pth
+models/checkpoints/*.pt
+*.onnx
+
+# OS specific
+.DS_Store
+Thumbs.db
